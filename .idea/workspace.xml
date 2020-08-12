@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aff67d8-4bdf-487b-951b-62e22283602d" name="Default Changelist" comment="" />
+    <list default="true" id="8aff67d8-4bdf-487b-951b-62e22283602d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/ContactStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/searchStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/contact.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/utilities/Browserutilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/utilities/Browserutilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/firstPage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/firstPage.feature" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +32,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,10 +50,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="E:/caseStudy" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="E:/SDET Course/briteERP" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -39,7 +62,7 @@
       <recent name="E:\caseStudy" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="CukesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.trivago.room5.runners.CukesRunner" />
       <module name="trivago" />
@@ -53,8 +76,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trivago" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trivago.room5.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trivago.room5.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.trivago.room5.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Application.CukesRunner" />
       </list>
     </recent_temporary>
@@ -85,13 +124,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1597157397750">
+    <state x="275" y="24" key="#Project_Structure" timestamp="1597161122357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="108" key="FileChooserDialogImpl/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597157397750" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1597157301600">
+    <state x="275" y="24" key="#Project_Structure/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597161122357" />
+    <state x="442" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1597160434872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597157301600" />
+    <state x="442" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597160434872" />
+    <state x="183" y="65" key="FileChooserDialogImpl" timestamp="1597226120353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="183" y="65" key="FileChooserDialogImpl/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597226120353" />
+    <state width="1322" height="185" key="GridCell.Tab.0.bottom" timestamp="1597228428804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597228428804" />
+    <state width="1322" height="185" key="GridCell.Tab.0.center" timestamp="1597228428804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597228428804" />
+    <state width="1322" height="185" key="GridCell.Tab.0.left" timestamp="1597228428804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597228428804" />
+    <state width="1322" height="185" key="GridCell.Tab.0.right" timestamp="1597228428804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597228428804" />
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1597160375319">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597160375319" />
+    <state x="308" y="0" key="SettingsEditor" timestamp="1597161362484">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="SettingsEditor/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597161362484" />
+    <state x="435" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1597161895188">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597161895188" />
   </component>
 </project>
