@@ -1,5 +1,6 @@
 package com.trivago.room5.pages;
 
+import com.trivago.room5.utilities.Browserutilities;
 import com.trivago.room5.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -12,8 +13,14 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.get(), this);
     }
 
+    @FindBy(id = "header")
+    public WebElement topHeader;
+
     @FindBy(className = "search-icon")
         public WebElement searchIcon;
+
+    @FindBy(className = "nav-icon")
+    public WebElement navIcon;
 
     @FindBy(id = "onetrust-accept-btn-handler")
     public WebElement cookiesOk;
@@ -47,8 +54,6 @@ public abstract class BasePage {
         return Driver.get().findElement(By.xpath("//div[@class='container-wide']//a[text()='"+tag+"']"));
     }
 
-    @FindBy(className = "nav-icon")
-    public WebElement navIcon;
 
     public WebElement navigationMenu(String string){
         String initial=string.substring(0,1).toUpperCase();
@@ -56,6 +61,12 @@ public abstract class BasePage {
         return Driver.get().findElement(By.xpath("//div[text()='"+string+"']"));
     }
 
+    public void cookiesCheck(){
+        if (cookiesOk.isDisplayed()){
+            //Browserutilities.hover(cookiesOk);
+            cookiesOk.click();
+        }
+    }
 
 
 

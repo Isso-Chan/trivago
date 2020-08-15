@@ -9,15 +9,16 @@ Feature: Search Menu
     When the user enters "bahamas" in search bar and clicks
     Then the user should see related results with "Bahamas"
 
-  @wip
+
   Scenario Outline: Search with destinations and recommended tags
     When the user selects "<destination>" and "<recommended_tag>"
     Then the user gets related results
 
     Examples:
       | destination | recommended_tag |
-      | Arizona     | City Travel     |
       | Ohio        | Coolest Hotels  |
+      | Arizona     | National Parks  |
+      | Midwest     | Road Trips      |
 
 
 

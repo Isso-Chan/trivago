@@ -16,6 +16,7 @@ public class Contact_NewsletterStepDefs {
     public void the_user_clicks_tag_under_the_page(String tag) {
         Contact c=new Contact();
         Browserutilities.scrollToElement(c.footerLink(tag));
+        c.cookiesCheck();
         c.footerLink(tag).click();
 
     }
@@ -25,6 +26,7 @@ public class Contact_NewsletterStepDefs {
         Contact c=new Contact();
         String defaultHandle = Driver.get().getWindowHandle();
         Browserutilities.switchToWindow();
+        c.cookiesCheck();
         Assert.assertFalse("WindowHandle verification ", defaultHandle.equals(Driver.get().getWindowHandle()));
 
 
@@ -64,6 +66,7 @@ public class Contact_NewsletterStepDefs {
     public void the_user_clicks_Submit_button_to_send_the_contact_form() {
         Contact c=new Contact();
         Browserutilities.scrollToElement(c.submitButton);
+        c.cookiesCheck();
         c.submitButton.click();
         Browserutilities.waitForClickablility(c.submitMessage,10);
 
@@ -72,6 +75,7 @@ public class Contact_NewsletterStepDefs {
     @When("the user clicks Submit button")
     public void the_user_clicks_Submit_button() {
         Contact c=new Contact();
+        c.cookiesCheck();
         c.submitButton.click();
     }
 
@@ -108,7 +112,9 @@ public class Contact_NewsletterStepDefs {
 
     @When("clicks inspire Me button")
     public void clicks_inspire_Me_button() {
-        new Contact().inspireMe.click();
+        Contact c=new Contact();
+        c.cookiesCheck();
+        c.inspireMe.click();
     }
 
     @Then("{string} message is shown")

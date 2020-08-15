@@ -35,12 +35,15 @@ public class Search extends BasePage {
     @FindBy(xpath = "//section[@class='posts-section']//span[@class='details']")
     public List<WebElement> selectionsSearchResults;
 
-    @FindBy(className = "search-icon open")
+    @FindBy(xpath = "//div[@class='search-icon open']")
     public WebElement searchIconOpen;
 
-    @FindBy(xpath = "(//div[@class='swiper-button-next filter-button-next icon-swiper-button-next filter-tag-next'])[1]")
-    public WebElement nextFilterButtonOfDestinations;
+    @FindBy(xpath = "//div[@class='filter-tag']")
+    public List<WebElement> filterTags;
 
+    public WebElement filterTag(String tag){
+        return Driver.get().findElement(By.xpath("//div[@class='tag-container']/div[text()='"+tag+"']"));
+    }
 
     public WebElement destination(String place){
         return Driver.get().findElement(By.xpath("//div[@class='search-destination-tags search-tags']//div[text()='"+place+"']"));

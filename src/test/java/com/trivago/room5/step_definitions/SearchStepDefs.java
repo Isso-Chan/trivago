@@ -15,20 +15,21 @@ import java.util.List;
 
 public class SearchStepDefs {
 
-    public String recommended;
-    public String destination;
+       public String destination;
 
     @Given("the user is on the homepage")
     public void the_user_is_on_the_homepage() {
         String url = ConfigurationReader.get("url");
         Driver.get().get(url);
+        //new Search().cookiesCheck();
     }
 
     @When("the user enters {string} in search bar and clicks")
     public void the_user_enters_in_search_bar_and_clicks(String word) {
         Search s=new Search();
+        Browserutilities.waitForClickablility(s.searchIcon,5);
         s.searchIcon.click();
-        Browserutilities.waitForClickablility(s.searchInput,20);
+        Browserutilities.waitForClickablility(s.searchInput,5);
         s.searchInput.sendKeys(word, Keys.ENTER);
 
     }
@@ -44,41 +45,40 @@ public class SearchStepDefs {
 
 
     }
-/*
-    @Then("the page title is {string}")
-    public void the_page_title_is(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }*/
+
 
     @And("the user click Ok button for cookies")
     public void theUserClickOkButtonForCookies() {
         Search s=new Search();
         try{
             //Thread.sleep(2000);
-            Browserutilities.waitForPresenceOfElement(s.cookiesOk,10);
+            Browserutilities.waitForPresenceOfElement(s.cookiesOk,5);
             s.cookiesOk.click();
         }catch (Exception e){
             System.out.println("No cookies found!!!!");
-        }
+        };
+
 
     }
 
     @When("the user selects {string} and {string}")
     public void the_user_selects_and(String dest, String rec) throws InterruptedException {
         Search s=new Search();
+        s.cookiesCheck();
+        Browserutilities.scrollToElement(s.navIcon);
+        Browserutilities.waitForPresenceOfElement(s.navIcon,5);
+        Thread.sleep(3000);
+        s.navIcon.click();
         s.searchIcon.click();
         Browserutilities.scrollToElement(s.destination(dest));
-       /* while (!s.destinations.toString().toLowerCase().contains(dest.toLowerCase())){
-            System.out.println("Destinations = " + Browserutilities.getElementsText(s.destinations).toString());
-            s.nextFilterButtonOfDestinations.click();
-        }*/
-        Browserutilities.waitForPresenceOfElement(s.destination(dest),10);
+        Browserutilities.waitForPresenceOfElement(s.destination(dest),20);
         s.destination(dest).click();
-        Browserutilities.waitForPresenceOfElement(s.recommendedTag(rec),10);
+
+        Browserutilities.scrollToElement(s.recommendedTag(rec));
+        Browserutilities.waitForPresenceOfElement(s.recommendedTag(rec),5);
         s.recommendedTag(rec).click();
+
         destination=dest;
-        recommended=rec;
     }
 
     @Then("the user gets related results")

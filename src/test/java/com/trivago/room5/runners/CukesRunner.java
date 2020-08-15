@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
             features = "src/test/resources/features/",
             glue = "com.trivago.room5.step_definitions",
             dryRun = false,
-            tags = "@wip"
+            tags = "@all"
 
     )
 public class CukesRunner {

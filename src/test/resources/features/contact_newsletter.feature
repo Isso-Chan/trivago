@@ -5,6 +5,7 @@ Feature: contact form
     Given the user is on the homepage
     And the user click Ok button for cookies
 
+
   Scenario: send contact form-positive
     When the user clicks "Contact" tag under the page
     Then a new tab opens

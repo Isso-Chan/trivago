@@ -17,16 +17,19 @@ public class NavigationStepDefs {
     public void the_user_clicks_nav_icon_and_button_on_the_top_left(String navigation) throws InterruptedException {
         Navigation n=new Navigation();
         Browserutilities.scrollToElement(n.navIcon);
+        Browserutilities.waitForClickablility(n.navIcon,5000);
         n.navIcon.click();
         navigation=Browserutilities.CamelCase(navigation);
-        Browserutilities.waitForClickablility(n.navigationMenu(navigation),10000);
+        Browserutilities.waitForClickablility(n.navigationMenu(navigation),5000);
         n.navigationMenu(navigation).click();
     }
 
     @When("selects {string} as a destinations")
     public void selects_as_a_destinations(String destination) {
         destination=Browserutilities.CamelCase(destination);
-        new Navigation().destinationMenu(destination).click();
+        Navigation n=new Navigation();
+        Browserutilities.scrollToElement(n.destinationMenu(destination));
+        n.destinationMenu(destination).click();
     }
 
     @When("the user selects {string} as a place")
@@ -34,7 +37,7 @@ public class NavigationStepDefs {
         place=Browserutilities.CamelCase(place);
         Navigation n=new Navigation();
         Browserutilities.scrollToElement(n.destinationMenu(place));
-        new Navigation().destinationMenu(place).click();
+        n.destinationMenu(place).click();
         selectedPlace=place;
     }
 
@@ -51,7 +54,6 @@ public class NavigationStepDefs {
     @Then("the user gets the results")
     public void the_user_gets_the_results() {
         Navigation n=new Navigation();
-        Boolean research=false;
         List<String> elementsText = Browserutilities.getElementsText(n.resultSet);
         Assert.assertTrue("Verification of place:"+selectedPlace, elementsText.contains(selectedPlace.toString().toUpperCase()));
 
