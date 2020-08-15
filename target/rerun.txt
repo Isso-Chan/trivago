@@ -1,0 +1,2 @@
+file:src/test/resources/features/navigate.feature:8
+file:src/test/resources/features/contact_newsletter.feature:35

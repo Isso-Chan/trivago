@@ -64,8 +64,8 @@ public class SearchStepDefs {
     @When("the user selects {string} and {string}")
     public void the_user_selects_and(String dest, String rec) throws InterruptedException {
         Search s=new Search();
-        s.cookiesCheck();
-        Browserutilities.scrollToElement(s.navIcon);
+        //s.cookiesCheck();
+        //Browserutilities.scrollToElement(s.navIcon);
         Browserutilities.waitForPresenceOfElement(s.navIcon,5);
         Thread.sleep(3000);
         s.navIcon.click();

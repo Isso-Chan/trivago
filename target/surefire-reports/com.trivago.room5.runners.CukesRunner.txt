@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.trivago.room5.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 696.29 s <<< FAILURE! - in com.trivago.room5.runners.CukesRunner
+try to send with missing fields(contact form)  Time elapsed: 43.182 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <button id="onetrust-accept-btn-handler"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHE-PC', ip: '192.168.0.171', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 3004, moz:profile: C:\Users\Che\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
+
+Navigation to place(Navigate to a destination)  Time elapsed: 42.454 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <div class="destination-name"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHE-PC', ip: '192.168.0.171', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8220, moz:profile: C:\Users\Che\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2b04a154-7ed9-4a89-8fb9-2188d606cee6
+

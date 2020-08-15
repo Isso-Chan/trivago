@@ -1,0 +1,2641 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1460083500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2719155500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:07:53.100Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11065633000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "send contact form-positive",
+        "description": "",
+        "id": "contact-form;send-contact-form-positive",
+        "after": [
+          {
+            "result": {
+              "duration": 28789646700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 453025900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks \"Contact\" tag under the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_tag_under_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1631093300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a new tab opens",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.a_new_tab_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 893051100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104005900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user sends \"Hi, I liked your webpage\" as message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi, I liked your webpage\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_message(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59003400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user sends \"John Stewens\" as Full Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Stewens\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_Full_Name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 656037500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user enters \"anyEmail@gmail.com\" in Your Email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anyEmail@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_Your_Email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247014100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user marks the checkbox to give approval about the message",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_marks_the_checkbox_to_give_approval_about_the_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1728098800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks Submit button to send the contact form",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button_to_send_the_contact_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25001500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user gets \"Message Sent Successfully!\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Message Sent Successfully!\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1181067600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1566089600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:08:43.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8681496500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "try to send with missing fields",
+        "description": "",
+        "id": "contact-form;try-to-send-with-missing-fields;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 34817991400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 165009500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks \"Contact\" tag under the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_tag_under_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1391079600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a new tab opens",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.a_new_tab_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 835047700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119006900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user sends \"Hi, I liked your webpage\" as message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi, I liked your webpage\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_message(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37002100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user sends \"\" as Full Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_Full_Name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30001700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters \"\" in Your Email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_Your_Email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258014800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks Submit button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43002400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user gets warning \"All Fields are required.\" for missing fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Fields are required.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_warning_for_missing_fields(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20001100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user gets \"Please mark the checkbox.\" for check box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please mark the checkbox.\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_for_check_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1314075200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1572089900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:09:32.220Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7468427100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "try to send with missing fields",
+        "description": "",
+        "id": "contact-form;try-to-send-with-missing-fields;;3",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "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WAUAAAAA6KRYBQAAAADopFgl9KdHH4qIiIiIiIiI7HVgFMUqoT89+nB6+uRzEREREREREZG9jGKVkRSrhBSrIiIiIiIiIrLPUawykmKVkGJVRERERERERPY5ilVGUqwSUqyKiIiIiIiIyD5HscpIilVCilURERERERER2ecoVhlJsUpIsSoiIiIiIiIi+xzFKiMpVgkpVkVERERERERkn6NYZSTFKiHFqoiIiIiIiIjscxSrjKRYJaRYFREREREREZF9jmKVkRSrhBSrIiIiIiIiIrLPUawykmKVkGJVRERERERERPY5ilVGUqwSUqyKiIiIiIiIyD5HscpIilVCilURERERERER2ecoVhlJsUpIsSoiIiIiIiIi+xzFKiMpVgkpVkVERERERERkn6NYZSTFKiHFqoiIiIiIiIjscxSrjKRYJaRYFREREREREZF9jmKVkRSrhBSrIiIiIiIiIrLPUawykmKVkGJVRERERERERPY5ilVGUqwS2lWx+t3vf3s6f+GF6dKLL1VfP3zr8Nhr5y+8MH33+98Op3fpxZem8xdeqCZNJ82zZzkvvfjSdPjWYfj6jRsfLC6bnNzvI6d948YHq6+niIiIiIiInN0oVhlJsUpoV8XqK1euTK9cuRKWkpsUq69cubLzwVaxuj9RrIqIiIiIiEhLFKuMpFgltItiNS8jo0JUsSq9UayKiIiIiIhISxSrjKRYJbSLYvXwrcNnXwfP/7t8z66L1drX0NP8U8p5lMVqKlJT0u/nv5fuxM3fs7RNykcZlOuSzysvD5eWv7YN0rYqH8VQLnetoMyX8/Ctw2d3Hkfbtyyey/ek7Vsuf7mda/s2TavcF4pVERERERERmYtilZEUq4R2UazmJWgq0Mry8TSK1bKIqy1LXqzWXi8LwVeuXDm23C13tJbLPjefchstLX+0DcptlUrV8n35cl968aVj65ZK1m2L1bIMjfZDPu9y+fIiVrEqIiIiIiIic1GsMpJildC2xWpLYff0yekUq1GhW7uj8umTk6VpbX16H0mQCsGyDCynU1vWluWPtkGtyCy3b76+0dfsd1Gs1krecjuX06n9njtWRUREREREpCWKVUZSrBLatlidKyfzQmyTYjX/Wniecj7RPJ8+OVl05sVq7XmrZeGXf629d9vMff29XP/W5S8z9ziEufeW+yPf7rt4FED+O9Fdt/l7a8eDZ6yKiIiIiIhISxSrjKRYJbRtsRqVn2WROPqO1fL5nGVqxWpU+EWlZ0qtkCyXvdwGtTtW5+YRLf/cNsi39dy0nj6pF+Lp5yOK1SiHbx2Gd9gulcoiIiIiIiIiT58oVhlLsUpom2J17qva5TM+T6tYXSrheu9YjeYZLVu0HK3Fam+J2HPHavmete9YLd/jjlURERERERHZJIpVRlKsEtqmWJ0rP8tnlY4uVqNCdK74a3nGai1RKRm9lpZtrlhtXf65bVD+rCwk82XrecZq/p5y+7QUq9G+9IxVERERERER2UUUq4ykWCW0abG6dGfn0yfH/xGr0/jHq2pFXHm3ZF781f61+vQV9bnCb+4OzOgf8yofIVBb/5blX9oGKeUdw7X9VRbL6XfS+rZsn5ZitTadct7ldsufT6tYFRERERERkbkoVhlJsUpo02I1ekZnnrwoPI1iNZ9n/gzPcrr5z8p/YCr9fq0YrT07dm6982mWRWe0/kvL37IN8n2UT6s2v/w9aZ/m61c++3WTRwHUtnPt2CnnVRbNnrkqIiIiIiIitShWGUmxSmjbf7xKvllpKbRFREREREREzlIUq4ykWCWkWJU8ilURERERERHZtyhWGUmxSkixKnkUqyIiIiIiIrJvUawykmKVkGJVRERERERERPY5ilVGUqwSUqyKiIiIiIiIyD5HscpIilVCilURERERERER2ecoVhlJsUpIsSoiIiIiIiIi+xzFKiMpVgkpVkVERERERERkn6NYZSTFKiHFqoiIiIiIiIjscxSrjKRYJaRYFREREREREZF9jmKVkRSrhBSrIiIiIiIiIrLPUawykmKVkGJVRERERERERPY5ilVGUqwSUqyKiIiIiIiIyD5HscpIilVCilURERERERER2ecoVhlJsUpIsSoiIiIiIiIi+xzFKiMpVgkpVkVERERERERkn6NYZSTFKiHFqoiIiIiIiIjscxSrjKRYJaRYFREREREREZF9jmKVkRSrhBSrIiIiIiIiIrLPUawykmKVkGJVRERERERERPY5ilVGUqwSUqyKiIiIiIiIyD5HscpIilVCf3r0oYiIiIiIiIjIXgdGUawCAAAAAHRSrAIAAAAAdFKsAgAAAAB0UqwCAAAAAHRSrAIAAAAAdFKsAgAAAAB0UqwCAAAAAHRSrAIAAAAAdFKsAgAAAAB0UqwCAAAAAHRSrAIAAAAAdFKsAgAAAAB0UqwCAAAAAHRSrAIAAAAAdFKsAgAAAAB0UqwCAAAAAHRSrAIAAAAAdFKsAgAAAAB0UqwCAAAAAHT6f+vHaitLyH/ZAAAAAElFTkSuQmCC",
+                "mime_type": "image/png",
+                "name": "screenshot"
+              }
+            ],
+            "result": {
+              "duration": 29725700200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 225012900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks \"Contact\" tag under the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_tag_under_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1583090600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a new tab opens",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.a_new_tab_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 835047700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85004900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user sends \"\" as message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_message(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34001900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user sends \"Isso Chan\" as Full Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Isso Chan\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_Full_Name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24001400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters \"\" in Your Email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_Your_Email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: Element \u003cbutton id\u003d\"onetrust-accept-btn-handler\"\u003e could not be scrolled into view\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CHE-PC\u0027, ip: \u0027192.168.0.171\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 3004, moz:profile: C:\\Users\\Che\\AppData\\Local\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat com.trivago.room5.pages.BasePage.cookiesCheck(BasePage.java:67)\r\n\tat com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button(Contact_NewsletterStepDefs.java:78)\r\n\tat ✽.the user clicks Submit button(file:///E:/caseStudy/trivago/src/test/resources/features/contact_newsletter.feature:28)\r\n",
+              "duration": 89005000,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "the user clicks Submit button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "the user gets warning \"All Fields are required.\" for missing fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Fields are required.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_warning_for_missing_fields(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "the user gets \"Please mark the checkbox.\" for check box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please mark the checkbox.\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_for_check_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1067061100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1528087400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:10:15.392Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7429425000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "try to send with missing fields",
+        "description": "",
+        "id": "contact-form;try-to-send-with-missing-fields;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 32819877200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152008700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks \"Contact\" tag under the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_tag_under_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1637093700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a new tab opens",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.a_new_tab_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 837047900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75004300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user sends \"\" as message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_message(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20001100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user sends \"\" as Full Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_Full_Name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53003100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters \"anyEmail@gmail.com\" in Your Email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anyEmail@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_Your_Email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295016800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks Submit button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21001200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user gets warning \"All Fields are required.\" for missing fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Fields are required.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_warning_for_missing_fields(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19001100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user gets \"Please mark the checkbox.\" for check box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please mark the checkbox.\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_for_check_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1097062700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1506086200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:11:01.365Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7957455200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "try to send with missing fields",
+        "description": "",
+        "id": "contact-form;try-to-send-with-missing-fields;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 31499801700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 243013900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks \"Contact\" tag under the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_tag_under_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3691211200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a new tab opens",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.a_new_tab_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 859049100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82004700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user sends \"\" as message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_message(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39002300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user sends \"Isso Chan\" as Full Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Isso Chan\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_Full_Name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59003400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters \"anyEmail@gmail.com\" in Your Email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anyEmail@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_Your_Email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279016000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks Submit button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22001200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user gets warning \"All Fields are required.\" for missing fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Fields are required.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_warning_for_missing_fields(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user gets \"Please mark the checkbox.\" for check box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please mark the checkbox.\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_for_check_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1081061800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1577090200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:11:48.740Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7889451300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "try to send with missing fields",
+        "description": "",
+        "id": "contact-form;try-to-send-with-missing-fields;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 30320734200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 245014000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks \"Contact\" tag under the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_tag_under_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2841162500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a new tab opens",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.a_new_tab_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 840048000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93005300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user sends \"Hi, I liked your webpage\" as message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi, I liked your webpage\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_message(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46002700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user sends \"\" as Full Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_Full_Name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47002700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters \"anyEmail@gmail.com\" in Your Email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anyEmail@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_Your_Email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277015800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks Submit button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40002300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user gets warning \"All Fields are required.\" for missing fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Fields are required.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_warning_for_missing_fields(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19001100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user gets \"Please mark the checkbox.\" for check box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please mark the checkbox.\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_for_check_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1011057800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1670095500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:12:34.120Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8112464000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "try to send with missing fields",
+        "description": "",
+        "id": "contact-form;try-to-send-with-missing-fields;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 32590864100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 213012200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks \"Contact\" tag under the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_tag_under_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1539088100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a new tab opens",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.a_new_tab_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 848048500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105006000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user sends \"Hi, I liked your webpage\" as message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi, I liked your webpage\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_message(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61003500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user sends \"Isso Chan\" as Full Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Isso Chan\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_sends_as_Full_Name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21001200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters \"\" in Your Email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_Your_Email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256014600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks Submit button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18001000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user gets warning \"All Fields are required.\" for missing fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Fields are required.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_warning_for_missing_fields(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17001000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user gets \"Please mark the checkbox.\" for check box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please mark the checkbox.\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_for_check_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 961055000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1694096900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:13:20.590Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8168467200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "try to send invalid E-Mail",
+        "description": "",
+        "id": "contact-form;try-to-send-invalid-e-mail",
+        "after": [
+          {
+            "result": {
+              "duration": 30779760500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167009500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user clicks \"Contact\" tag under the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_tag_under_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1565089500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "a new tab opens",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.a_new_tab_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 860049200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42002400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user enters \"jstevens@gmail.c\" in Your Email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jstevens@gmail.c\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_Your_Email_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260014900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user marks the checkbox to give approval about the message",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_marks_the_checkbox_to_give_approval_about_the_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258014800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user clicks Submit button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29001700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user gets \"Please provide a valid email address.\" for check box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please provide a valid email address.\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_for_check_box(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2552146000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1458083400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:14:05.392Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10062575600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Email subscription to newsletter",
+        "description": "",
+        "id": "contact-form;email-subscription-to-newsletter",
+        "after": [
+          {
+            "result": {
+              "duration": 29069662700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92005300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user enters an email into subscription box",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_an_email_into_subscription_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 313017900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "clicks inspire Me button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.clicks_inspire_Me_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1731099000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the user gets verification message as \"You are now checked-in!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You are now checked-in!\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_verification_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@newletter"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999057200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1597091300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:14:50.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7125407500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Invalid-Email subscription to newsletter",
+        "description": "",
+        "id": "contact-form;invalid-email-subscription-to-newsletter",
+        "after": [
+          {
+            "result": {
+              "duration": 25529460200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79004600,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "the user enters \"isso@gmail.c\" in email subscription box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"isso@gmail.c\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_enters_in_email_subscription_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 316018000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "clicks inspire Me button",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.clicks_inspire_Me_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38002200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "\"Please enter a valid e-mail address\" message is shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please enter a valid e-mail address\"",
+                  "offset": 0
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.message_is_shown(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactForm"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@newletter"
+          }
+        ]
+      }
+    ],
+    "name": "contact form",
+    "description": "",
+    "id": "contact-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/contact_newsletter.feature",
+    "tags": [
+      {
+        "name": "@contactForm",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1281073200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1550088700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:15:26.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7689439800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Navigation to place",
+        "description": "",
+        "id": "navigate-to-a-destination;navigation-to-place",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAKOCAYAAABN80LeAAATRUlEQVR4nO3YMQ0AMAzAsPInvWLINVWyEeTOPAAAAAAAkvkdAAAAAABwjbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAA0QLsV3gOrPGdfQAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "image/png",
+                "name": "screenshot"
+              }
+            ],
+            "result": {
+              "duration": 27619579700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2129121800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks nav-icon and \"DESTiNATIONS\" button on the top left",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DESTiNATIONS\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.NavigationStepDefs.the_user_clicks_nav_icon_and_button_on_the_top_left(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1054060300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selects \"SOUThWEST\" as a destinations",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SOUThWEST\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.NavigationStepDefs.selects_as_a_destinations(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: The element reference of \u003cdiv class\u003d\"destination-name\"\u003e is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CHE-PC\u0027, ip: \u0027192.168.0.171\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8220, moz:profile: C:\\Users\\Che\\AppData\\Local\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2b04a154-7ed9-4a89-8fb9-2188d606cee6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)\r\n\tat com.trivago.room5.utilities.Browserutilities.scrollToElement(Browserutilities.java:81)\r\n\tat com.trivago.room5.step_definitions.NavigationStepDefs.the_user_selects_as_a_place(NavigationStepDefs.java:39)\r\n\tat ✽.the user selects \"TExAS\" as a place(file:///E:/caseStudy/trivago/src/test/resources/features/navigate.feature:11)\r\n",
+              "duration": 1087062100,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "the user selects \"TExAS\" as a place",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TExAS\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.NavigationStepDefs.the_user_selects_as_a_place(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the user filters the selection with \"city Travel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city Travel\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.NavigationStepDefs.the_user_filters_the_selection_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the user gets the results",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.NavigationStepDefs.the_user_gets_the_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigate"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to a destination",
+    "description": "",
+    "id": "navigate-to-a-destination",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/navigate.feature",
+    "tags": [
+      {
+        "name": "@navigate",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1328075900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1507086200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:16:08.853Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8977513500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search for any location on Magazine by using the search bar",
+        "description": "",
+        "id": "search-menu;search-for-any-location-on-magazine-by-using-the-search-bar",
+        "after": [
+          {
+            "result": {
+              "duration": 28553633200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2545145600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters \"bahamas\" in search bar and clicks",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bahamas\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_enters_in_search_bar_and_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 895051200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should see related results with \"Bahamas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bahamas\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_should_see_related_results_with(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 978056000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1566089500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:16:52.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7988456900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Search with destinations and recommended tags",
+        "description": "",
+        "id": "search-menu;search-with-destinations-and-recommended-tags;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 30880766300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5243299900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user selects \"Ohio\" and \"Coolest Hotels\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ohio\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Coolest Hotels\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_selects_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1166066700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user gets related results",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_gets_related_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1605091800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1589090900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:17:40.514Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7814447000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search with destinations and recommended tags",
+        "description": "",
+        "id": "search-menu;search-with-destinations-and-recommended-tags;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 31264788200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5231299200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user selects \"Arizona\" and \"National Parks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arizona\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"National Parks\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_selects_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1415080900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user gets related results",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_gets_related_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5024287400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1577090200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Ok button for cookies",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.theUserClickOkButtonForCookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T20:18:29.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8593491500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Search with destinations and recommended tags",
+        "description": "",
+        "id": "search-menu;search-with-destinations-and-recommended-tags;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 33674926100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5257300700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user selects \"Midwest\" and \"Road Trips\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Midwest\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Road Trips\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_selects_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3457197800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user gets related results",
+            "match": {
+              "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_gets_related_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Search Menu",
+    "description": "",
+    "id": "search-menu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/search.feature",
+    "tags": [
+      {
+        "name": "@search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  }
+]
