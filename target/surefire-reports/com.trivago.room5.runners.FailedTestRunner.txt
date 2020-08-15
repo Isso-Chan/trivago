@@ -1,22 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.trivago.room5.runners.FailedTestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 299.669 s <<< FAILURE! - in com.trivago.room5.runners.FailedTestRunner
-Navigation to place(Navigate to a destination)  Time elapsed: 240.707 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Failed to decode response from marionette
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 137.001 s <<< FAILURE! - in com.trivago.room5.runners.FailedTestRunner
+send contact form-positive(contact form)  Time elapsed: 64.185 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#confirm"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'CHE-PC', ip: '192.168.0.171', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6536, moz:profile: C:\Users\Che\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9105ee09-7abc-45bb-8a92-e5391be796a4
-
-Navigation to place(Navigate to a destination)  Time elapsed: 240.708 s  <<< ERROR!
-org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHE-PC', ip: '192.168.0.171', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6536, moz:profile: C:\Users\Che\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9105ee09-7abc-45bb-8a92-e5391be796a4
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Che\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57771}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8e27cf35f13f56709650b6850f99f296
+*** Element info: {Using=id, value=confirm}
 

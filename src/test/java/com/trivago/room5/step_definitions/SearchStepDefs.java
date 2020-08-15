@@ -51,12 +51,12 @@ public class SearchStepDefs {
     public void theUserClickOkButtonForCookies() {
         Search s=new Search();
         try{
-            //Thread.sleep(2000);
+            Thread.sleep(500);
             Browserutilities.waitForPresenceOfElement(s.cookiesOk,5);
             s.cookiesOk.click();
         }catch (Exception e){
             System.out.println("No cookies found!!!!");
-        };
+        }
 
 
     }

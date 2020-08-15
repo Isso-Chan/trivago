@@ -131,7 +131,8 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button_to_send_the_contact_form()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton class\u003d\"contact-submit\"\u003e...\u003c/button\u003e is not clickable at point (64, 21). Other element would receive the click: \u003cdiv class\u003d\"fixed-header\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d84.0.4147.125)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CHE-PC\u0027, ip: \u0027192.168.0.171\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\Che\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:57195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 80f2dcd5272e34990724aca8cdb9f53c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button_to_send_the_contact_form(Contact_NewsletterStepDefs.java:70)\r\n\tat ✽.the user clicks Submit button to send the contact form(file:///E:/caseStudy/trivago/src/test/resources/features/contact_newsletter.feature:17)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "the user gets \"Message Sent Successfully!\" message",
@@ -141,8 +142,9 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_message(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded0.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
@@ -493,8 +495,7 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: Element \u003cbutton id\u003d\"onetrust-accept-btn-handler\"\u003e could not be scrolled into view\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CHE-PC\u0027, ip: \u0027192.168.0.171\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 3004, moz:profile: C:\\Users\\Che\\AppData\\Local\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat com.trivago.room5.pages.BasePage.cookiesCheck(BasePage.java:67)\r\n\tat com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button(Contact_NewsletterStepDefs.java:78)\r\n\tat ✽.the user clicks Submit button(file:///E:/caseStudy/trivago/src/test/resources/features/contact_newsletter.feature:28)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "the user gets warning \"All Fields are required.\" for missing fields",
@@ -504,7 +505,7 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_warning_for_missing_fields(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "the user gets \"Please mark the checkbox.\" for check box",
@@ -514,9 +515,8 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_gets_for_check_box(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
@@ -1407,8 +1407,7 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.NavigationStepDefs.the_user_selects_as_a_place(java.lang.String)"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.StaleElementReferenceException: The element reference of \u003cdiv class\u003d\"destination-name\"\u003e is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CHE-PC\u0027, ip: \u0027192.168.0.171\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8220, moz:profile: C:\\Users\\Che\\AppData\\Local\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2b04a154-7ed9-4a89-8fb9-2188d606cee6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)\r\n\tat com.trivago.room5.utilities.Browserutilities.scrollToElement(Browserutilities.java:81)\r\n\tat com.trivago.room5.step_definitions.NavigationStepDefs.the_user_selects_as_a_place(NavigationStepDefs.java:39)\r\n\tat ✽.the user selects \"TExAS\" as a place(file:///E:/caseStudy/trivago/src/test/resources/features/navigate.feature:11)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "the user filters the selection with \"city Travel\"",
@@ -1418,7 +1417,7 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.NavigationStepDefs.the_user_filters_the_selection_with(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "the user gets the results",
@@ -1428,7 +1427,8 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.NavigationStepDefs.the_user_gets_the_results()"
 });
 formatter.result({
-  "status": "skipped"
+  "error_message": "java.lang.AssertionError: Verification of place:Texas\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.trivago.room5.step_definitions.NavigationStepDefs.the_user_gets_the_results(NavigationStepDefs.java:58)\r\n\tat ✽.the user gets the results(file:///E:/caseStudy/trivago/src/test/resources/features/navigate.feature:13)\r\n",
+  "status": "failed"
 });
 formatter.embedding("image/png", "embedded1.png", "screenshot");
 formatter.after({
@@ -1623,8 +1623,10 @@ formatter.match({
   "location": "com.trivago.room5.step_definitions.SearchStepDefs.the_user_gets_related_results()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: Destination verification\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.trivago.room5.step_definitions.SearchStepDefs.the_user_gets_related_results(SearchStepDefs.java:92)\r\n\tat ✽.the user gets related results(file:///E:/caseStudy/trivago/src/test/resources/features/search.feature:15)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded2.png", "screenshot");
 formatter.after({
   "status": "passed"
 });

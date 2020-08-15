@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>15 Aug 2020, 22:24</td>
+      <td>15 Aug 2020, 23:40</td>
     </tr>
   </tbody>
 </table>
@@ -128,14 +128,14 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">2.875</span>
+  <span class="lead-duration duration">20.774</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
 <div class="brief failed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">try to send with missing fields</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">send contact form-positive</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -166,7 +166,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.trivago.room5.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">7.468</span>
+  <span class="lead-duration duration">10.549</span>
 
           </div>
 
@@ -203,7 +203,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">the user clicks <span class="argument">&quot;Contact&quot;</span> tag under the page</span>
 
-  <span class="lead-duration duration">0.225</span>
+  <span class="lead-duration duration">0.786</span>
 
 </div>
 
@@ -230,7 +230,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">a new tab opens</span>
 
-  <span class="lead-duration duration">1.583</span>
+  <span class="lead-duration duration">3.966</span>
 
 </div>
 
@@ -257,7 +257,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">the user click Ok button for cookies</span>
 
-  <span class="lead-duration duration">0.835</span>
+  <span class="lead-duration duration">8.959</span>
 
 </div>
 
@@ -282,36 +282,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">the user sends <span class="argument">&quot;&quot;</span> as message</span>
+  <span class="name">the user sends <span class="argument">&quot;Hi, I liked your webpage&quot;</span> as message</span>
 
-  <span class="lead-duration duration">0.085</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">the user sends <span class="argument">&quot;Isso Chan&quot;</span> as Full Name</span>
-
-  <span class="lead-duration duration">0.034</span>
+  <span class="lead-duration duration">5.283</span>
 
 </div>
 
@@ -336,9 +309,63 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">the user enters <span class="argument">&quot;&quot;</span> in Your Email box</span>
+  <span class="name">the user sends <span class="argument">&quot;John Stewens&quot;</span> as Full Name</span>
 
-  <span class="lead-duration duration">0.024</span>
+  <span class="lead-duration duration">0.136</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user enters <span class="argument">&quot;anyEmail@gmail.com&quot;</span> in Your Email box</span>
+
+  <span class="lead-duration duration">0.324</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user marks the checkbox to give approval about the message</span>
+
+  <span class="lead-duration duration">0.090</span>
 
 </div>
 
@@ -363,9 +390,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
-  <span class="name">the user clicks Submit button</span>
+  <span class="name">the user clicks Submit button to send the contact form</span>
 
-  <span class="lead-duration duration">0.089</span>
+  <span class="lead-duration duration">1.228</span>
 
 </div>
 
@@ -377,15 +404,16 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.ElementNotInteractableException:</a>
+          <a>org.openqa.selenium.ElementClickInterceptedException:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;button id=&quot;onetrust-accept-btn-handler&quot;&gt; could not be scrolled into view
+        <pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;contact-submit&quot;&gt;...&lt;/button&gt; is not clickable at point (64, 21). Other element would receive the click: &lt;div class=&quot;fixed-header&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.125)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'CHE-PC', ip: '192.168.0.171', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 3004, moz:profile: C:\Users\Che\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Che\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 80f2dcd5272e34990724aca8cdb9f53c
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -404,10 +432,9 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at com.trivago.room5.pages.BasePage.cookiesCheck(BasePage.java:67)
-	at com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button(Contact_NewsletterStepDefs.java:78)
-	at &#10045;.the user clicks Submit button(file:///E:/caseStudy/trivago/src/test/resources/features/contact_newsletter.feature:28)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at com.trivago.room5.step_definitions.Contact_NewsletterStepDefs.the_user_clicks_Submit_button_to_send_the_contact_form(Contact_NewsletterStepDefs.java:70)
+	at &#10045;.the user clicks Submit button to send the contact form(file:///E:/caseStudy/trivago/src/test/resources/features/contact_newsletter.feature:17)
 </pre>
       </div>
     </div>
@@ -429,36 +456,9 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
 
 <div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
-  <span class="name">the user gets warning <span class="argument">&quot;All Fields are required.&quot;</span> for missing fields</span>
+  <span class="name">the user gets <span class="argument">&quot;Message Sent Successfully!&quot;</span> message</span>
 
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">the user gets <span class="argument">&quot;Please mark the checkbox.&quot;</span> for check box</span>
-
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -503,7 +503,7 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
             <span class="keyword indention">After</span>
               <span class="location name">com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">29.725</span>
+  <span class="lead-duration duration">14.291</span>
 
           </div>
 
@@ -516,13 +516,13 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
       <a>screenshot</a>
-      <a href="embeddings/embedding_1044585754.png" download target="_blank">
+      <a href="embeddings/embedding_-1228715103.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-6" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_1044585754.png">
+        <img src="embeddings/embedding_-1228715103.png">
       </div>
     </div>
   </div>
@@ -550,7 +550,7 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
 </div>
 
 
-  <span class="lead-duration duration">4.272</span>
+  <span class="lead-duration duration">8.215</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
@@ -588,7 +588,7 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
             <span class="keyword indention">Before</span>
               <span class="location name">com.trivago.room5.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">7.689</span>
+  <span class="lead-duration duration">4.899</span>
 
           </div>
 
@@ -625,7 +625,7 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
   <span class="keyword indention">When</span>
   <span class="name">the user clicks nav-icon and <span class="argument">&quot;DESTiNATIONS&quot;</span> button on the top left</span>
 
-  <span class="lead-duration duration">2.129</span>
+  <span class="lead-duration duration">1.576</span>
 
 </div>
 
@@ -652,7 +652,7 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
   <span class="keyword indention">And</span>
   <span class="name">selects <span class="argument">&quot;SOUThWEST&quot;</span> as a destinations</span>
 
-  <span class="lead-duration duration">1.054</span>
+  <span class="lead-duration duration">2.859</span>
 
 </div>
 
@@ -675,11 +675,65 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">the user selects <span class="argument">&quot;TExAS&quot;</span> as a place</span>
 
-  <span class="lead-duration duration">1.087</span>
+  <span class="lead-duration duration">3.148</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user filters the selection with <span class="argument">&quot;city Travel&quot;</span></span>
+
+  <span class="lead-duration duration">0.481</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user gets the results</span>
+
+  <span class="lead-duration duration">0.151</span>
 
 </div>
 
@@ -691,89 +745,18 @@ Session ID: b91658f3-0d5f-4613-9ca6-2b3454d12a11
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
-          <a>org.openqa.selenium.StaleElementReferenceException:</a>
+          <a>java.lang.AssertionError:</a>
       </div>
       <div id="msg-10" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;div class=&quot;destination-name&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHE-PC', ip: '192.168.0.171', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8220, moz:profile: C:\Users\Che\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2b04a154-7ed9-4a89-8fb9-2188d606cee6
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
-	at com.trivago.room5.utilities.Browserutilities.scrollToElement(Browserutilities.java:81)
-	at com.trivago.room5.step_definitions.NavigationStepDefs.the_user_selects_as_a_place(NavigationStepDefs.java:39)
-	at &#10045;.the user selects &quot;TExAS&quot; as a place(file:///E:/caseStudy/trivago/src/test/resources/features/navigate.feature:11)
+        <pre>java.lang.AssertionError: Verification of place:Texas
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.trivago.room5.step_definitions.NavigationStepDefs.the_user_gets_the_results(NavigationStepDefs.java:58)
+	at &#10045;.the user gets the results(file:///E:/caseStudy/trivago/src/test/resources/features/navigate.feature:13)
 </pre>
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">the user filters the selection with <span class="argument">&quot;city Travel&quot;</span></span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">the user gets the results</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
 
 
 
@@ -811,7 +794,7 @@ Session ID: 2b04a154-7ed9-4a89-8fb9-2188d606cee6
             <span class="keyword indention">After</span>
               <span class="location name">com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">27.619</span>
+  <span class="lead-duration duration">2.034</span>
 
           </div>
 
@@ -824,13 +807,224 @@ Session ID: 2b04a154-7ed9-4a89-8fb9-2188d606cee6
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
       <a>screenshot</a>
-      <a href="embeddings/embedding_1905201660.png" download target="_blank">
+      <a href="embeddings/embedding_-1835899278.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-12" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_1905201660.png">
+        <img src="embeddings/embedding_-1835899278.png">
+      </div>
+    </div>
+  </div>
+  </div>
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_2075728867.html">Search Menu</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2206807527.html">@search</a>
+       <a href="report-tag_2149486944.html">@all</a>
+       <a href="report-tag_2149507997.html">@wip</a>
+</div>
+
+
+  <span class="lead-duration duration">26.271</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Search with destinations and recommended tags</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-13" class="collapse collapsable-details  in ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-14" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.trivago.room5.step_definitions.Hooks.setUp()</span>
+
+  <span class="lead-duration duration">3.881</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-15">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-15" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">the user selects <span class="argument">&quot;Ohio&quot;</span> and <span class="argument">&quot;Coolest Hotels&quot;</span></span>
+
+  <span class="lead-duration duration">25.210</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user gets related results</span>
+
+  <span class="lead-duration duration">1.061</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-16">
+          <a>java.lang.AssertionError:</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details  in ">
+        <pre>java.lang.AssertionError: Destination verification
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.trivago.room5.step_definitions.SearchStepDefs.the_user_gets_related_results(SearchStepDefs.java:92)
+	at &#10045;.the user gets related results(file:///E:/caseStudy/trivago/src/test/resources/features/search.feature:15)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-17">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-17" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">com.trivago.room5.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+
+  <span class="lead-duration duration">1.359</span>
+
+          </div>
+
+
+
+
+
+
+  <div class="embeddings inner-level">
+  <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding-18" class="collapsable-control">
+      <a>screenshot</a>
+      <a href="embeddings/embedding_-97515346.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-18" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_-97515346.png">
       </div>
     </div>
   </div>

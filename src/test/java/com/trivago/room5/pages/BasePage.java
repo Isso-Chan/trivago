@@ -62,6 +62,11 @@ public abstract class BasePage {
     }
 
     public void cookiesCheck(){
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         if (cookiesOk.isDisplayed()){
             //Browserutilities.hover(cookiesOk);
             cookiesOk.click();

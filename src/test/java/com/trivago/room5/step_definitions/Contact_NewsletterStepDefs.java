@@ -66,7 +66,7 @@ public class Contact_NewsletterStepDefs {
     public void the_user_clicks_Submit_button_to_send_the_contact_form() {
         Contact c=new Contact();
         Browserutilities.scrollToElement(c.submitButton);
-        c.cookiesCheck();
+        //c.cookiesCheck();
         c.submitButton.click();
         Browserutilities.waitForClickablility(c.submitMessage,10);
 
@@ -75,7 +75,7 @@ public class Contact_NewsletterStepDefs {
     @When("the user clicks Submit button")
     public void the_user_clicks_Submit_button() {
         Contact c=new Contact();
-        c.cookiesCheck();
+        //c.cookiesCheck();
         c.submitButton.click();
     }
 
@@ -113,7 +113,6 @@ public class Contact_NewsletterStepDefs {
     @When("clicks inspire Me button")
     public void clicks_inspire_Me_button() {
         Contact c=new Contact();
-        c.cookiesCheck();
         c.inspireMe.click();
     }
 
