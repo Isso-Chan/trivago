@@ -3,18 +3,48 @@
   <component name="ChangeListManager">
     <list default="true" id="8aff67d8-4bdf-487b-951b-62e22283602d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Contact_NewsletterStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Contact_NewsletterStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-1228715103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-1835899278.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-97515346.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_1044585754.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_1905201660.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1630493299.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1630493299.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_2817811884.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_2817811884.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2_2075728867.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2_2075728867.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1859316931.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1859316931.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149486944.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149486944.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149507997.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149507997.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2206807527.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2206807527.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_242042288.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_242042288.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2561760645.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2561760645.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failed-html-report/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failed-html-report/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failed-html-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failed-html-report/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failed-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/failed-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failed-html-report/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/Contact_NewsletterStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/Contact_NewsletterStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/SearchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/SearchStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-08-15T22-07-48_939-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-08-15T22-07-48_939.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-08-15T23-27-49_862-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-08-15T23-27-49_862.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.trivago.room5.runners.CukesRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.trivago.room5.runners.CukesRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.trivago.room5.runners.FailedTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.trivago.room5.runners.FailedTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.trivago.room5.runners.CukesRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.trivago.room5.runners.CukesRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.trivago.room5.runners.FailedTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.trivago.room5.runners.FailedTestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/trivago-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/trivago-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,22 +178,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="183" y="65" key="FileChooserDialogImpl/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597487377229" />
-    <state width="1322" height="161" key="GridCell.Tab.0.bottom" timestamp="1597522033807">
+    <state width="1322" height="161" key="GridCell.Tab.0.bottom" timestamp="1597528402692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597522033807" />
-    <state width="1322" height="161" key="GridCell.Tab.0.center" timestamp="1597522033806">
+    <state width="1322" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597528402692" />
+    <state width="1322" height="161" key="GridCell.Tab.0.center" timestamp="1597528402692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597522033806" />
-    <state width="1322" height="161" key="GridCell.Tab.0.left" timestamp="1597522033806">
+    <state width="1322" height="161" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597528402692" />
+    <state width="1322" height="161" key="GridCell.Tab.0.left" timestamp="1597528402692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597522033806" />
-    <state width="1322" height="161" key="GridCell.Tab.0.right" timestamp="1597522033807">
+    <state width="1322" height="161" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597528402692" />
+    <state width="1322" height="161" key="GridCell.Tab.0.right" timestamp="1597528402692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597522033807" />
+    <state width="1322" height="161" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597528402692" />
     <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1597160375319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
