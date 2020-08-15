@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aff67d8-4bdf-487b-951b-62e22283602d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/NavigationStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/NavigationStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +156,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597160375319" />
+    <state x="129" y="54" key="MergeDialog" timestamp="1597523533303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="MergeDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597523533303" />
+    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1597523533307">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597523533307" />
     <state x="308" y="0" key="SettingsEditor" timestamp="1597161362484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
