@@ -1,5 +1,6 @@
 package com.trivago.room5.utilities;
 
+import com.mifmif.common.regex.Generex;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -71,6 +72,51 @@ public class Browserutilities {
         actions.moveToElement(element).perform();
     }
 
+    /**
+     * Scrolls down to an element using JavaScript
+     *
+     * @param element
+     */
+    public static void scrollToElement(WebElement element) {
+        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
 
+    /**
+     *  checks that an element is present on the DOM of a page. This does not
+     *    * necessarily mean that the element is visible.
+     * @param element
+     * @param time
+     */
+    public static void waitForPresenceOfElement(WebElement element, long time) {
+        new WebDriverWait(Driver.get(), time).until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    /*
+    This method returns a generated email
+    * @return Email with 10 chars in name
+     */
+    public static String generateEmail(){
+        String regex = "\\w{10}\\@gmail\\.com";
+       return new Generex(regex).random();
+    }
+
+    public static String CamelCase(String str){
+        String[] words = str.toLowerCase().split(" ");
+        String sentence="";
+        for (String word : words) {
+            sentence +=" "+word.substring(0, 1).toUpperCase() + word.substring(1);
+        }
+        return sentence.trim();
+    }
+
+    public static void waitUntilLoaderScreenDisappear(WebElement element) {
+        try {
+            WebDriverWait wait = new WebDriverWait(Driver.get(), 10);
+            wait.until(ExpectedConditions.invisibilityOf(element));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 
 }

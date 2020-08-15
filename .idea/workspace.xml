@@ -2,24 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aff67d8-4bdf-487b-951b-62e22283602d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/ContactStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/searchStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/contact.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Navigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/FailedTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Contact_NewsletterStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/NavigationStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/contact_newsletter.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/navigate.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/ContactStepDefs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/searchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/utilities/Browserutilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/utilities/Browserutilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/firstPage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/contact.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/pages/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/pages/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/pages/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/pages/Search.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/firstPage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/ContactStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/searchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/step_definitions/searchStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/utilities/Browserutilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/utilities/Browserutilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/trivago/room5/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/contact.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +73,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="E:/SDET Course/briteERP" />
+    <property name="last_opened_file_path" value="E:/SDET Course/bitrix24" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\caseStudy\trivago\src\test\java\com\trivago\room5\utilities" />
       <recent name="E:\caseStudy" />
     </key>
   </component>
@@ -91,9 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trivago" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trivago.room5.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trivago.room5.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.trivago.room5.runners.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="Application.CukesRunner" />
       </list>
     </recent_temporary>
@@ -132,26 +171,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597160434872" />
-    <state x="183" y="65" key="FileChooserDialogImpl" timestamp="1597226120353">
+    <state x="183" y="65" key="FileChooserDialogImpl" timestamp="1597487377229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="183" y="65" key="FileChooserDialogImpl/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597226120353" />
-    <state width="1322" height="185" key="GridCell.Tab.0.bottom" timestamp="1597228428804">
+    <state x="183" y="65" key="FileChooserDialogImpl/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597487377229" />
+    <state width="1322" height="170" key="GridCell.Tab.0.bottom" timestamp="1597493236885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597228428804" />
-    <state width="1322" height="185" key="GridCell.Tab.0.center" timestamp="1597228428804">
+    <state width="1322" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597493236885" />
+    <state width="1322" height="170" key="GridCell.Tab.0.center" timestamp="1597493236885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="185" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597228428804" />
-    <state width="1322" height="185" key="GridCell.Tab.0.left" timestamp="1597228428804">
+    <state width="1322" height="170" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597493236885" />
+    <state width="1322" height="170" key="GridCell.Tab.0.left" timestamp="1597493236884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="185" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597228428804" />
-    <state width="1322" height="185" key="GridCell.Tab.0.right" timestamp="1597228428804">
+    <state width="1322" height="170" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597493236884" />
+    <state width="1322" height="170" key="GridCell.Tab.0.right" timestamp="1597493236885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="185" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597228428804" />
+    <state width="1322" height="170" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597493236885" />
     <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1597160375319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -160,9 +199,32 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="SettingsEditor/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597161362484" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1597259854025">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597259854025" />
+    <state x="390" y="125" width="585" height="478" key="find.popup" timestamp="1597482828311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="125" width="585" height="478" key="find.popup/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597482828311" />
     <state x="435" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1597161895188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597161895188" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597335767362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597335767362" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

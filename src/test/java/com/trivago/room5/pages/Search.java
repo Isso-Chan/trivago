@@ -20,17 +20,26 @@ public class Search extends BasePage {
     @FindBy(xpath = "//div[@class='search-results']//h2/span")
     public List<WebElement> searchResults;
 
+    @FindBy(xpath = "//div[@class='search-results']/h3")
+    public WebElement totalResults;
+
+    @FindBy(xpath = "//div[@class='v-bounce v-bounce1']")
+    public WebElement bounceVbounce;
+
     @FindBy(xpath = "//div[@class='search-destination-tags search-tags']//div[@class='filter-tag']")
     public List<WebElement> destinations;
 
     @FindBy(xpath = "//div[@class='search-recommended-tags search-tags']//div[@class='filter-tag']")
     public List<WebElement> recommendedTags;
 
-    @FindBy(xpath = "//div[@class='search-results']//div[@class='destination-menu']")
+    @FindBy(xpath = "//section[@class='posts-section']//span[@class='details']")
     public List<WebElement> selectionsSearchResults;
 
     @FindBy(className = "search-icon open")
     public WebElement searchIconOpen;
+
+    @FindBy(xpath = "(//div[@class='swiper-button-next filter-button-next icon-swiper-button-next filter-tag-next'])[1]")
+    public WebElement nextFilterButtonOfDestinations;
 
 
     public WebElement destination(String place){
