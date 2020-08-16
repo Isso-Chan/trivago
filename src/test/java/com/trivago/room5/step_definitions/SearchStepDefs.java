@@ -73,6 +73,7 @@ public class SearchStepDefs {
     @Then("the user gets related results")
     public void the_user_gets_related_results() {
         Search s=new Search();
+        s.cookiesCheck();
         Browserutilities.waitUntilLoaderScreenDisappear(s.bounceVbounce);
         String total = s.totalResults.getText().split(" ")[0];
         Assert.assertTrue("Search result verification", Integer.parseInt(total)>0);

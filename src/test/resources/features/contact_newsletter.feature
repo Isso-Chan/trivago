@@ -9,7 +9,6 @@ Feature: contact form
   Scenario: send contact form-positive
     When the user clicks "Contact" tag under the page
     Then a new tab opens
-    And the user click Ok button for cookies
     When the user sends "Hi, I liked your webpage" as message
     And the user sends "John Stewens" as Full Name
     And the user enters "anyEmail@gmail.com" in Your Email box
@@ -21,7 +20,6 @@ Feature: contact form
   Scenario Outline: try to send with missing fields
     When the user clicks "Contact" tag under the page
     Then a new tab opens
-    And the user click Ok button for cookies
     When the user sends "<message>" as message
     And the user sends "<Full Name>" as Full Name
     And the user enters "<Email>" in Your Email box
@@ -42,7 +40,6 @@ Feature: contact form
   Scenario: try to send invalid E-Mail
     When the user clicks "CONTACT" tag under the page
     Then a new tab opens
-    And the user click Ok button for cookies
     When the user enters "jstevens@gmail.c" in Your Email box
     And the user marks the checkbox to give approval about the message
     And the user clicks Submit button

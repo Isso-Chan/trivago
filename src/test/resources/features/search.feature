@@ -11,15 +11,15 @@ Feature: Search Menu
     Then the user gets related results
 
 
-  Scenario Outline: Search with destinations and recommended tags
+  Scenario Outline: Search with recommended tags and <destination>
     When the user selects "<destination>" and "<recommended_tag>"
     Then the user gets related results
 
     Examples:
-      | destination | recommended_tag |
-      | Ohio        | Coolest Hotels  |
-      | Arizona     | National Parks  |
-      | Midwest     | Road Trips      |
+      | destination | recommended_tag  |
+      | Colorado    | Travel from home |
+      | Arizona     | National Parks   |
+      | Midwest     | Road Trips       |
 
 
 

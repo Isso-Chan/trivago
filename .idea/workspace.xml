@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8aff67d8-4bdf-487b-951b-62e22283602d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/pages/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Contact_NewsletterStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Contact_NewsletterStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/NavigationStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/NavigationStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/contact_newsletter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/contact_newsletter.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search.feature" afterDir="false" />
@@ -55,7 +50,7 @@
       <recent name="E:\caseStudy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FailedTestRunner">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="CukesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.trivago.room5.runners.CukesRunner" />
       <module name="trivago" />
@@ -101,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="Application.CukesRunner" />
       </list>
     </recent_temporary>
@@ -145,22 +140,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="183" y="65" key="FileChooserDialogImpl/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597487377229" />
-    <state width="1322" height="396" key="GridCell.Tab.0.bottom" timestamp="1597584142065">
+    <state width="1322" height="200" key="GridCell.Tab.0.bottom" timestamp="1597597197790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="396" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597584142065" />
-    <state width="1322" height="396" key="GridCell.Tab.0.center" timestamp="1597584142065">
+    <state width="1322" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597197790" />
+    <state width="1322" height="200" key="GridCell.Tab.0.center" timestamp="1597597197789">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="396" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597584142065" />
-    <state width="1322" height="396" key="GridCell.Tab.0.left" timestamp="1597584142064">
+    <state width="1322" height="200" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597197789" />
+    <state width="1322" height="200" key="GridCell.Tab.0.left" timestamp="1597597197789">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="396" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597584142064" />
-    <state width="1322" height="396" key="GridCell.Tab.0.right" timestamp="1597584142065">
+    <state width="1322" height="200" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597197789" />
+    <state width="1322" height="200" key="GridCell.Tab.0.right" timestamp="1597597197790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="396" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597584142065" />
+    <state width="1322" height="200" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597197790" />
     <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1597160375319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -177,10 +172,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="SettingsEditor/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597161362484" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1597502127470">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1597596170259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597502127470" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597596170259" />
     <state x="390" y="125" width="585" height="478" key="find.popup" timestamp="1597572363430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
