@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8aff67d8-4bdf-487b-951b-62e22283602d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trivago/room5/step_definitions/SearchStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/contact_newsletter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/contact_newsletter.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -42,7 +39,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -115,7 +112,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Che\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -140,22 +137,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="183" y="65" key="FileChooserDialogImpl/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597487377229" />
-    <state width="1322" height="200" key="GridCell.Tab.0.bottom" timestamp="1597597197790">
+    <state width="1366" height="200" key="GridCell.Tab.0.bottom" timestamp="1597597443725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597197790" />
-    <state width="1322" height="200" key="GridCell.Tab.0.center" timestamp="1597597197789">
+    <state width="1366" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597443725" />
+    <state width="1366" height="200" key="GridCell.Tab.0.center" timestamp="1597597443725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597197789" />
-    <state width="1322" height="200" key="GridCell.Tab.0.left" timestamp="1597597197789">
+    <state width="1366" height="200" key="GridCell.Tab.0.center/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597443725" />
+    <state width="1366" height="200" key="GridCell.Tab.0.left" timestamp="1597597443725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597197789" />
-    <state width="1322" height="200" key="GridCell.Tab.0.right" timestamp="1597597197790">
+    <state width="1366" height="200" key="GridCell.Tab.0.left/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597443725" />
+    <state width="1366" height="200" key="GridCell.Tab.0.right" timestamp="1597597443725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="200" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597197790" />
+    <state width="1366" height="200" key="GridCell.Tab.0.right/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597597443725" />
     <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1597160375319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -168,10 +165,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597523533307" />
-    <state x="308" y="0" key="SettingsEditor" timestamp="1597161362484">
+    <state x="308" y="0" key="SettingsEditor" timestamp="1597598014681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="SettingsEditor/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597161362484" />
+    <state x="308" y="0" key="SettingsEditor/0.0.1366.728/190.-664.1176.664@0.0.1366.728" timestamp="1597598014681" />
     <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1597596170259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
