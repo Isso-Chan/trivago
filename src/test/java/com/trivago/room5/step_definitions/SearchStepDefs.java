@@ -21,28 +21,17 @@ public class SearchStepDefs {
     public void the_user_is_on_the_homepage() {
         String url = ConfigurationReader.get("url");
         Driver.get().get(url);
-        //new Search().cookiesCheck();
     }
 
     @When("the user enters {string} in search bar and clicks")
     public void the_user_enters_in_search_bar_and_clicks(String word) {
         Search s=new Search();
+        word=Browserutilities.CamelCase(word);
         Browserutilities.waitForClickablility(s.searchIcon,5);
         s.searchIcon.click();
         Browserutilities.waitForClickablility(s.searchInput,5);
         s.searchInput.sendKeys(word, Keys.ENTER);
-
-    }
-
-    @Then("the user should see related results with {string}")
-    public void the_user_should_see_related_results_with(String word) {
-        Search s=new Search();
-        String result = s.resultTitle.getText();
-            if(!result.equals("No results")){
-                List<String> searchResults = Browserutilities.getElementsText(s.searchResults);
-                searchResults.forEach(a-> Assert.assertTrue("Verification of searched item:"+word, a.toLowerCase().contains(word.toLowerCase())));
-            }
-
+        destination=word;
 
     }
 
@@ -64,18 +53,18 @@ public class SearchStepDefs {
     @When("the user selects {string} and {string}")
     public void the_user_selects_and(String dest, String rec) throws InterruptedException {
         Search s=new Search();
-        //s.cookiesCheck();
-        //Browserutilities.scrollToElement(s.navIcon);
         Browserutilities.waitForPresenceOfElement(s.navIcon,5);
         Thread.sleep(3000);
         s.navIcon.click();
         s.searchIcon.click();
+        dest=Browserutilities.CamelCase(dest);
         Browserutilities.scrollToElement(s.destination(dest));
         Browserutilities.waitForPresenceOfElement(s.destination(dest),20);
         s.destination(dest).click();
 
+        rec=Browserutilities.CamelCase(rec);
         Browserutilities.scrollToElement(s.recommendedTag(rec));
-        Browserutilities.waitForPresenceOfElement(s.recommendedTag(rec),5);
+        Browserutilities.waitForPresenceOfElement(s.recommendedTag(rec),20);
         s.recommendedTag(rec).click();
 
         destination=dest;
@@ -89,6 +78,7 @@ public class SearchStepDefs {
         Assert.assertTrue("Search result verification", Integer.parseInt(total)>0);
 
         List<String> resultsText = Browserutilities.getElementsText(s.selectionsSearchResults);
+        System.out.println("resultsText = " + resultsText);
         Assert.assertTrue("Destination verification", resultsText.toString().toLowerCase().contains(destination.toLowerCase()));
 
     }

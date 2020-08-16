@@ -40,7 +40,7 @@ Feature: contact form
 
 
   Scenario: try to send invalid E-Mail
-    When the user clicks "Contact" tag under the page
+    When the user clicks "CONTACT" tag under the page
     Then a new tab opens
     And the user click Ok button for cookies
     When the user enters "jstevens@gmail.c" in Your Email box

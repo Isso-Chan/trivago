@@ -16,7 +16,6 @@ public class NavigationStepDefs {
     @When("the user clicks nav-icon and {string} button on the top left")
     public void the_user_clicks_nav_icon_and_button_on_the_top_left(String navigation) throws InterruptedException {
         Navigation n=new Navigation();
-        //Browserutilities.scrollToElement(n.navIcon);
         Browserutilities.waitForClickablility(n.navIcon,5000);
         n.navIcon.click();
         navigation=Browserutilities.CamelCase(navigation);

@@ -1,6 +1,5 @@
 package com.trivago.room5.pages;
 
-import com.trivago.room5.utilities.Browserutilities;
 import com.trivago.room5.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -13,8 +12,6 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(id = "header")
-    public WebElement topHeader;
 
     @FindBy(className = "search-icon")
         public WebElement searchIcon;
@@ -68,7 +65,6 @@ public abstract class BasePage {
             e.printStackTrace();
         }
         if (cookiesOk.isDisplayed()){
-            //Browserutilities.hover(cookiesOk);
             cookiesOk.click();
         }
     }

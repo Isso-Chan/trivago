@@ -7,14 +7,13 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-import java.util.Random;
-
 public class Contact_NewsletterStepDefs {
 
 
     @When("the user clicks {string} tag under the page")
     public void the_user_clicks_tag_under_the_page(String tag) {
         Contact c=new Contact();
+        tag=Browserutilities.CamelCase(tag);
         Browserutilities.scrollToElement(c.footerLink(tag));
         c.cookiesCheck();
         c.footerLink(tag).click();
@@ -28,9 +27,6 @@ public class Contact_NewsletterStepDefs {
         Browserutilities.switchToWindow();
         c.cookiesCheck();
         Assert.assertFalse("WindowHandle verification ", defaultHandle.equals(Driver.get().getWindowHandle()));
-
-
-
     }
 
     @When("the user sends {string} as message")

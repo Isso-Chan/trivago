@@ -21,12 +21,6 @@ public class Contact extends BasePage {
     @FindBy(id = "confirm")
     public WebElement checkBox;
 
-    @FindBy(xpath = "(//div[@class='alert-error'])[1]")
-    public WebElement checkBoxErrorAlert;
-
-    @FindBy(xpath = "(//div[@class='alert-error'])[2]")
-    public WebElement mailAdresErrorAlert;
-
     @FindBy(xpath = "//div[@class='alert-warning']")
     public WebElement allFieldsAlertWarning;
 

@@ -14,36 +14,14 @@ public class Search extends BasePage {
     @FindBy(xpath = "//input[@class='input search-input']")
     public WebElement searchInput;
 
-    @FindBy(className = "section-title")
-    public WebElement resultTitle;
-
-    @FindBy(xpath = "//div[@class='search-results']//h2/span")
-    public List<WebElement> searchResults;
-
     @FindBy(xpath = "//div[@class='search-results']/h3")
     public WebElement totalResults;
 
     @FindBy(xpath = "//div[@class='v-bounce v-bounce1']")
     public WebElement bounceVbounce;
 
-    @FindBy(xpath = "//div[@class='search-destination-tags search-tags']//div[@class='filter-tag']")
-    public List<WebElement> destinations;
-
-    @FindBy(xpath = "//div[@class='search-recommended-tags search-tags']//div[@class='filter-tag']")
-    public List<WebElement> recommendedTags;
-
     @FindBy(xpath = "//section[@class='posts-section']//span[@class='details']")
     public List<WebElement> selectionsSearchResults;
-
-    @FindBy(xpath = "//div[@class='search-icon open']")
-    public WebElement searchIconOpen;
-
-    @FindBy(xpath = "//div[@class='filter-tag']")
-    public List<WebElement> filterTags;
-
-    public WebElement filterTag(String tag){
-        return Driver.get().findElement(By.xpath("//div[@class='tag-container']/div[text()='"+tag+"']"));
-    }
 
     public WebElement destination(String place){
         return Driver.get().findElement(By.xpath("//div[@class='search-destination-tags search-tags']//div[text()='"+place+"']"));
